@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA7CB2F20917B29003354FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB2E20917B29003354FB /* AppDelegate.m */; };
+		BAA7CB3220917B29003354FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB3120917B29003354FB /* ViewController.m */; };
+		BAA7CB3520917B29003354FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA7CB3320917B29003354FB /* Main.storyboard */; };
+		BAA7CB3720917B29003354FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA7CB3620917B29003354FB /* Assets.xcassets */; };
+		BAA7CB3A20917B29003354FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA7CB3820917B29003354FB /* LaunchScreen.storyboard */; };
+		BAA7CB3D20917B29003354FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB3C20917B29003354FB /* main.m */; };
+		BAA7CB4720917B29003354FB /* WMCyclicCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB4620917B29003354FB /* WMCyclicCardTests.m */; };
+		BAA7CB5220917B2A003354FB /* WMCyclicCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB5120917B2A003354FB /* WMCyclicCardUITests.m */; };
+		BAA7CB6320917B3F003354FB /* WMCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB5F20917B3C003354FB /* WMCollectionViewFlowLayout.m */; };
+		BAA7CB6420917B3F003354FB /* WMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CB6120917B3F003354FB /* WMCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA7CB4320917B29003354FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA7CB2220917B29003354FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA7CB2920917B29003354FB;
+			remoteInfo = WMCyclicCard;
+		};
+		BAA7CB4E20917B29003354FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA7CB2220917B29003354FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA7CB2920917B29003354FB;
+			remoteInfo = WMCyclicCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAA7CB2A20917B29003354FB /* WMCyclicCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCyclicCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA7CB2D20917B29003354FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAA7CB2E20917B29003354FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAA7CB3020917B29003354FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAA7CB3120917B29003354FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAA7CB3420917B29003354FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAA7CB3620917B29003354FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA7CB3920917B29003354FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAA7CB3B20917B29003354FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA7CB3C20917B29003354FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAA7CB4220917B29003354FB /* WMCyclicCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCyclicCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA7CB4620917B29003354FB /* WMCyclicCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMCyclicCardTests.m; sourceTree = "<group>"; };
+		BAA7CB4820917B29003354FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA7CB4D20917B29003354FB /* WMCyclicCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCyclicCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA7CB5120917B2A003354FB /* WMCyclicCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMCyclicCardUITests.m; sourceTree = "<group>"; };
+		BAA7CB5320917B2A003354FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA7CB5F20917B3C003354FB /* WMCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BAA7CB6020917B3E003354FB /* WMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCollectionViewCell.h; sourceTree = "<group>"; };
+		BAA7CB6120917B3F003354FB /* WMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCollectionViewCell.m; sourceTree = "<group>"; };
+		BAA7CB6220917B3F003354FB /* WMCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA7CB2720917B29003354FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB3F20917B29003354FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB4A20917B29003354FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA7CB2120917B29003354FB = {
+			isa = PBXGroup;
+			children = (
+				BAA7CB2C20917B29003354FB /* WMCyclicCard */,
+				BAA7CB4520917B29003354FB /* WMCyclicCardTests */,
+				BAA7CB5020917B29003354FB /* WMCyclicCardUITests */,
+				BAA7CB2B20917B29003354FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA7CB2B20917B29003354FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7CB2A20917B29003354FB /* WMCyclicCard.app */,
+				BAA7CB4220917B29003354FB /* WMCyclicCardTests.xctest */,
+				BAA7CB4D20917B29003354FB /* WMCyclicCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA7CB2C20917B29003354FB /* WMCyclicCard */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7CB2D20917B29003354FB /* AppDelegate.h */,
+				BAA7CB2E20917B29003354FB /* AppDelegate.m */,
+				BAA7CB3020917B29003354FB /* ViewController.h */,
+				BAA7CB3120917B29003354FB /* ViewController.m */,
+				BAA7CB6220917B3F003354FB /* WMCollectionViewFlowLayout.h */,
+				BAA7CB5F20917B3C003354FB /* WMCollectionViewFlowLayout.m */,
+				BAA7CB6020917B3E003354FB /* WMCollectionViewCell.h */,
+				BAA7CB6120917B3F003354FB /* WMCollectionViewCell.m */,
+				BAA7CB3320917B29003354FB /* Main.storyboard */,
+				BAA7CB3620917B29003354FB /* Assets.xcassets */,
+				BAA7CB3820917B29003354FB /* LaunchScreen.storyboard */,
+				BAA7CB3B20917B29003354FB /* Info.plist */,
+				BAA7CB3C20917B29003354FB /* main.m */,
+			);
+			path = WMCyclicCard;
+			sourceTree = "<group>";
+		};
+		BAA7CB4520917B29003354FB /* WMCyclicCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7CB4620917B29003354FB /* WMCyclicCardTests.m */,
+				BAA7CB4820917B29003354FB /* Info.plist */,
+			);
+			path = WMCyclicCardTests;
+			sourceTree = "<group>";
+		};
+		BAA7CB5020917B29003354FB /* WMCyclicCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7CB5120917B2A003354FB /* WMCyclicCardUITests.m */,
+				BAA7CB5320917B2A003354FB /* Info.plist */,
+			);
+			path = WMCyclicCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA7CB2920917B29003354FB /* WMCyclicCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA7CB5620917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCard" */;
+			buildPhases = (
+				BAA7CB2620917B29003354FB /* Sources */,
+				BAA7CB2720917B29003354FB /* Frameworks */,
+				BAA7CB2820917B29003354FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCyclicCard;
+			productName = WMCyclicCard;
+			productReference = BAA7CB2A20917B29003354FB /* WMCyclicCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA7CB4120917B29003354FB /* WMCyclicCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA7CB5920917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCardTests" */;
+			buildPhases = (
+				BAA7CB3E20917B29003354FB /* Sources */,
+				BAA7CB3F20917B29003354FB /* Frameworks */,
+				BAA7CB4020917B29003354FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA7CB4420917B29003354FB /* PBXTargetDependency */,
+			);
+			name = WMCyclicCardTests;
+			productName = WMCyclicCardTests;
+			productReference = BAA7CB4220917B29003354FB /* WMCyclicCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA7CB4C20917B29003354FB /* WMCyclicCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA7CB5C20917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCardUITests" */;
+			buildPhases = (
+				BAA7CB4920917B29003354FB /* Sources */,
+				BAA7CB4A20917B29003354FB /* Frameworks */,
+				BAA7CB4B20917B29003354FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA7CB4F20917B29003354FB /* PBXTargetDependency */,
+			);
+			name = WMCyclicCardUITests;
+			productName = WMCyclicCardUITests;
+			productReference = BAA7CB4D20917B29003354FB /* WMCyclicCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA7CB2220917B29003354FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wumian;
+				TargetAttributes = {
+					BAA7CB2920917B29003354FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BAA7CB4120917B29003354FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAA7CB2920917B29003354FB;
+					};
+					BAA7CB4C20917B29003354FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAA7CB2920917B29003354FB;
+					};
+				};
+			};
+			buildConfigurationList = BAA7CB2520917B29003354FB /* Build configuration list for PBXProject "WMCyclicCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA7CB2120917B29003354FB;
+			productRefGroup = BAA7CB2B20917B29003354FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA7CB2920917B29003354FB /* WMCyclicCard */,
+				BAA7CB4120917B29003354FB /* WMCyclicCardTests */,
+				BAA7CB4C20917B29003354FB /* WMCyclicCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA7CB2820917B29003354FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7CB3A20917B29003354FB /* LaunchScreen.storyboard in Resources */,
+				BAA7CB3720917B29003354FB /* Assets.xcassets in Resources */,
+				BAA7CB3520917B29003354FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB4020917B29003354FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB4B20917B29003354FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA7CB2620917B29003354FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7CB6320917B3F003354FB /* WMCollectionViewFlowLayout.m in Sources */,
+				BAA7CB6420917B3F003354FB /* WMCollectionViewCell.m in Sources */,
+				BAA7CB3220917B29003354FB /* ViewController.m in Sources */,
+				BAA7CB3D20917B29003354FB /* main.m in Sources */,
+				BAA7CB2F20917B29003354FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB3E20917B29003354FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7CB4720917B29003354FB /* WMCyclicCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA7CB4920917B29003354FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7CB5220917B2A003354FB /* WMCyclicCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA7CB4420917B29003354FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA7CB2920917B29003354FB /* WMCyclicCard */;
+			targetProxy = BAA7CB4320917B29003354FB /* PBXContainerItemProxy */;
+		};
+		BAA7CB4F20917B29003354FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA7CB2920917B29003354FB /* WMCyclicCard */;
+			targetProxy = BAA7CB4E20917B29003354FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA7CB3320917B29003354FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA7CB3420917B29003354FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA7CB3820917B29003354FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA7CB3920917B29003354FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAA7CB5420917B2A003354FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAA7CB5520917B2A003354FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA7CB5720917B2A003354FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA7CB5820917B2A003354FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAA7CB5A20917B2A003354FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCyclicCard.app/WMCyclicCard";
+			};
+			name = Debug;
+		};
+		BAA7CB5B20917B2A003354FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCyclicCard.app/WMCyclicCard";
+			};
+			name = Release;
+		};
+		BAA7CB5D20917B2A003354FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMCyclicCard;
+			};
+			name = Debug;
+		};
+		BAA7CB5E20917B2A003354FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WMCyclicCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumian.lunbo.WMCyclicCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WMCyclicCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA7CB2520917B29003354FB /* Build configuration list for PBXProject "WMCyclicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA7CB5420917B2A003354FB /* Debug */,
+				BAA7CB5520917B2A003354FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA7CB5620917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA7CB5720917B2A003354FB /* Debug */,
+				BAA7CB5820917B2A003354FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA7CB5920917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA7CB5A20917B2A003354FB /* Debug */,
+				BAA7CB5B20917B2A003354FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA7CB5C20917B2A003354FB /* Build configuration list for PBXNativeTarget "WMCyclicCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA7CB5D20917B2A003354FB /* Debug */,
+				BAA7CB5E20917B2A003354FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA7CB2220917B29003354FB /* Project object */;
+}
